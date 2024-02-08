@@ -69,7 +69,7 @@ function getItems(): Object[] {
         subItems.push({
           label: subItem?.attributes?.name,
           icon: `pi pi-${subItem?.attributes?.name.replace("s", "")}`,
-          link: `/offer/${subItem.primaryKey}/1`,
+          link: `/`,
         });
       }
       if (subItems.length > 0) {
